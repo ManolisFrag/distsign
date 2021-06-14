@@ -9,7 +9,7 @@ from bokeh.plotting import figure, show
 import re
 import os
 import os.path
-from dtsignlib import compare
+from distsign import compare
 from scipy.stats import kde
 
 from bokeh.models import ColumnDataSource, HoverTool, Legend
