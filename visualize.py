@@ -182,7 +182,7 @@ def show_paths(dir_to_search):
     try:
         x_n, y_n = zip(*data_n)
     except:
-        x_n, y_n = {(0,0)}
+        x_n, y_n = [(0,0), (0,0)]
     
     
     #####
