@@ -450,7 +450,7 @@ def show_both_dominant_non_dominant_heatmap(dir_to_search):
     sns.kdeplot(x=coords2.X, y=coords2.Y, cmap="Reds", ax=ax, shade=True, shade_lowest=False)
 #     sns.plot([0],[0],'o',ms=60,mec='r',mfc='none')
 
-    map_img = mpimg.imread('dtsignlib/body4.png') 
+    map_img = mpimg.imread('distsign/body4.png') 
  
     
     ax.set_xlim([-2,2])
