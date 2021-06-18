@@ -179,7 +179,10 @@ def show_paths(dir_to_search):
    # Create data: 200 points
 #     data = np.random.multivariate_normal([0, 0], [[1, 0.5], [0.5, 3]], 200)
     data_n = df_n["Non_dominant_hand"]
-    x_n, y_n = zip(*data_n)
+    try:
+        x_n, y_n = zip(*data_n)
+    except:
+        x_n, y_n = {(0,0)}
     
     
     #####
