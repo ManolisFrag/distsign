@@ -200,7 +200,7 @@ def show_paths(dir_to_search):
         video=df['Sequence'].unique(),
     ))
 
-    p = figure(tools=TOOLS , x_axis_label='x', y_axis_label='y', plot_width=600)
+    p = figure(tools=TOOLS , x_axis_label='x', y_axis_label='y', plot_width=1000)
     image = 'https://www.clipartkey.com/mpngs/m/32-329894_clip-art-png-outline-transparent-images-human-upper.png'
     p.image_url(url = [image], x=-1.1, y=2, w=2.4, h=2.5, anchor="bottom_left")
 #     show(p)
